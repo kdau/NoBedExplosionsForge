@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+#issueTrackerURL="https://gitlab.com/kdau/NoBedExplosionsForge/-/issues"
+[[mods]]
+modId="nobedexplosionsforge"
+version="1.0.0"
+displayName="NoBedExplosions Forge"
+#updateJSONURL="https://gitlab.com/kdau/NoBedExplosionsForge/-/blob/main/updates.json"
+#displayURL="https://gitlab.com/kdau/NoBedExplosionsForge/"
+authors="TehBrian (Spigot), kdau (Forge)"
+description='''
+Fully control bed and respawn anchor functionality across all worlds, including allowing sleep in the nether or end!
+
+This is a Forge port of the original Spigot mod by TehBrian.
+
+Since bed explosions became configurable in Minecraft 1.17, this mod will only be maintained for the 1.16 series.
+'''
+[[dependencies.nobedexplosionsforge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nobedexplosionsforge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
